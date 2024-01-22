@@ -71,4 +71,6 @@ steps:
     mavenVersionOption: 'Default'
     effectivePomSkip: true
     sonarQubeRunAnalysis: false
-    goals: 'clean install package deploy $(MAVEN_OPTS) -DmuleDeploy'
+    # goals: 'clean install package deploy $(MAVEN_OPTS) -DmuleDeploy'
+    goals: 'mvn clean deploy $(MAVEN_OPTS) -DmuleDeploy'
+    
