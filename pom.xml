@@ -36,6 +36,7 @@
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.4.0</muleVersion>
 				      <server>ac-connected-app</server>
+				      
 				      <applicationName>My-First-App-Azure</applicationName>
 				      <environment>DEV</environment>
 				      <region>us-east-1</region>
